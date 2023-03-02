@@ -1,0 +1,39 @@
+/* the features of specific elements are used to modify here, A CSS file is responsible for the visual layout*/
+
+body {
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* for the body tag*/
+
+h1 {
+    font-size: 3 rem;
+    text-align: center;
+}
+
+/* for the h1 tag*/
+
+h2 {
+    font-size: 1.25 rem;
+    text-align: center;
+}
+
+/* for the h2 tag*/
+
+h3 {
+    font-size: 1.1 rem;
+    text-align: center;
+    font-style: italic;
+}
+
+/* for the h3 tag*/
+
+p {
+    line-height: 1.3;
+    font-size: 1.1 rem;
+    text-align: center;
+    font-style: italic;
+}
+
+/* for the paragraph tag*/
