@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html> <!--html tag to begin-->
 
-<head>
-    <title>HTML & CSS REFERENCE GUIDE</title>
-    <link rel="stylesheet" href="style.css">
+<head> <!--head tag contains the information & links to other files-->
+    <title>HTML & CSS REFERENCE GUIDE</title> <!--displayed on title bar-->
+    <link rel="stylesheet" href="style.css"> <!--link to css file-->
 </head>
 
-<body>
-    <h1>HTML & CSS REFERENCE GUIDE</h1>
-    <hr class="horrizzzline">
-    <br>
-    <p class="hteaml">
+<body> <!--body tag, everything to be displayed is inside this tag-->
+    <h1>HTML & CSS REFERENCE GUIDE</h1> <!--largest heading-->
+    <hr class="horrizzzline"> <!--line break (horizontal)-->
+    <br> <!--whitespace, new row-->
+    <p class="hteaml"> <!--paragraph tag with class-->
         HTML stands for HyperTextMarkupLanguage. It is used to build the skeletal structure
         of the websites. Every HTML tag is written inside <> brackets. Closing tags include
             a '/' with the name of the tag. Here is the reference guide for the basic tags:
     </p>
     <br>
-    <table class="firstone">
-        <tr>
-            <th>The Tag</th>
+    <!--table for html tags-->
+    <table class="firstone"> <!--table with its class-->
+        <tr> <!--table row-->
+            <th>The Tag</th> <!--table heads-->
             <th>Description</th>
+            <th>Code Snippet</th>
         </tr>
 
         <tr>
-            <td>
+            <td> <!--table data-->
                 < html>
             </td>
             <td>
                 This is the root element of the document. It converts the text documents
                 into webpages. It also indicates the begining and the end of the document.
+            </td>
+            <td>
+                <pre> <!--displays the values inside it as it is-->
+                    <code> <!--written in code type font-->
+                        < html>
+                        
+                        < /html>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -39,6 +50,15 @@
             <td>
                 This tag includes the meta information about the webpage. It tells the
                 search engines what the website is all about. This helps with the SEOs.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        < head>
+                          < title>Title here< /title> 
+                        < /head>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -51,6 +71,15 @@
                 is essential to give accurate titles to websites/webpages for better results
                 in SEOs and SERP.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < title>
+                            Some Title
+                        < /title>
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -60,6 +89,15 @@
             <td>
                 The body tag has all the content of the webpage/website inside it. It includes
                 all the other tags inside it.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        < body>
+                            everything to be displayed....
+                        < /body>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -72,6 +110,18 @@
                 webpage. The h1 is the largest of them all. Then onwards each heading gets
                 smaller and smaller in size. h6 is the smallest.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < h1>Heading 1< /h1>
+                        < h2>Heading 2< /h2>
+                        < h3>Heading 3< /h3>
+                        < h4>Heading 4< /h4>
+                        < h5>Heading 5< /h5>   
+                        < h6>Heading 6< /h6>
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -81,6 +131,18 @@
             <td>
                 The p tag is used to write paragraphs in a webpage. The paragraph's
                 alignments can be done using CSS properties.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        < p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          Tempore provident consectetur facere dicta accusamus labore 
+                          quaerat numquam id neque adipisci fugiat nisi, dolorem eaque 
+                          eligendi cupiditate temporibus laboriosam nesciunt fugit. 
+                        < /p>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -93,6 +155,13 @@
                 quality and gives a better insight about the content. We also add the image
                 address in quotes to locate the image and display it.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < img src="the aesthetic - rainy day.png" alt="an amazing photo">
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -102,6 +171,13 @@
             <td>
                 This is known as anchor tag. This is used for navigation or linking websites
                 or a specific location on the current page.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        < a href="https:www.google.com/" target="_blank">Visit Google now!!< /a>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -113,6 +189,13 @@
                 This is a line break element. It is used to force content into a new line.
                 This tag is very essential as HTML does not know about whitespaces.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < br>
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -123,6 +206,13 @@
                 This tag is used to create horizontal lines in our webpages. Its length and
                 thickness can be modified using CSS.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < hr>
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -132,6 +222,17 @@
             <td>
                 This tag is used to create tables. It is used at the begining and the
                 end of the table.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        < table>
+                          < tr>
+                           < th>some content< /th> 
+                          < /tr> 
+                        < /table>
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -144,17 +245,22 @@
                 tr stands for table rows. It is used to add content to table rows.
                 td stands for table data. It is used to add content to table coloumns.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        < tr>
+                         < td>content< /td>
+                        < /tr>
+                    </code>
+                </pre>
+            </td>
         </tr>
     </table>
 
-    <h3>Code Example containing all the discussed html tags:</h3>
-    <p>
-        Click here to view the example:
-        <a href="examplehtml.html" target="_blank">Click Here</a>
-    </p>
-
     <hr class="horrizzzline">
     <br><br><br>
+
+    <!--CSS properties begining-->
 
     <p class="hteaml">
         CSS stands for Cascading StyleSheet. It is used to modify/design the webpage.
@@ -166,6 +272,7 @@
         <tr>
             <th>CSS Properties</th>
             <th>Description</th>
+            <th>Code Snippet</th>
         </tr>
 
         <tr>
@@ -173,6 +280,18 @@
             <td>
                 A short-form for all the font related properties. One of the most used
                 properties in CSS. It can edit size, color, style, etc. of the text.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            font-size: large;
+                            font-family: 'Courier New', Courier, monospace;
+                            font-weight: bold;
+                            font-style: italic;
+                        }
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -182,6 +301,16 @@
                 A short-form for all the background related actions. It can perform actions
                 for background color, image, etc.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        p { 
+                            background-color: aqua;
+                            background-size: auto;
+                        }
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -189,6 +318,18 @@
             <td>
                 A shorthand for the padding properties. Padding refers to the area around
                 the certain element.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            padding-left: 12px;
+                            padding-right: 12px;
+                            padding-top: 12px;
+                            padding-bottom: 12px;
+                        }
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -198,6 +339,17 @@
                 A shorthand for border related modifications. It can modify the style, color,
                 radius etc. of the borders.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        p { 
+                            border-collapse: collapse;
+                            border-radius: 10px;
+                            border-bottom: 12px;
+                        }
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -205,6 +357,15 @@
             <td>
                 A property to align the items in a container when all the space is not
                 being used.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            align-content: center;
+                        }
+                    </code>
+                </pre>
             </td>
         </tr>
 
@@ -214,6 +375,15 @@
                 It specifies the position of elements wether the content will float
                 to the left, right, center, etc.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            float: inline-end;
+                        }
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -222,6 +392,15 @@
                 The overflow property is used when it is required to specify the layout
                 of the content in a container if the content is too big.
             </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            overflow: auto;
+                        }
+                    </code>
+                </pre>
+            </td>
         </tr>
 
         <tr>
@@ -229,6 +408,15 @@
             <td>
                 It is responsible for the modification of the text. It can make the
                 text underlined, dotted, etc.
+            </td>
+            <td>
+                <pre>
+                    <code>
+                        p {
+                            text-decoration: dashed;
+                        }
+                    </code>
+                </pre>
             </td>
         </tr>
 
