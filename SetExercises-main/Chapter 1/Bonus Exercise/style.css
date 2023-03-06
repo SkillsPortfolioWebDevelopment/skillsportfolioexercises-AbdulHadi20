@@ -1,0 +1,62 @@
+body {
+    background-color: #5b8291;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.horrizzzline {
+    background-color: #2e424d;
+    width: auto;
+    padding: 7px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #eaebed
+}
+
+.hteaml,
+h3 {
+    color: #eaebed;
+    text-align: left;
+    padding-left: 17px;
+    padding-right: 35px;
+    border-bottom: 100px;
+}
+
+.firstone {
+    table-layout: auto;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #2e424d;
+}
+
+th {
+    background-color: #2e424d;
+    color: #eaebed;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 15px 15px 25px 20px;
+}
+
+tr,
+td {
+    table-layout: auto;
+    padding: 15px 15px 30px 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #eaebed;
+}
+
+tr:nth-child(odd) {
+    background-color: #98dad9;
+}
+
+code {
+    color: #eaebed;
+    font-weight: bold;
+}

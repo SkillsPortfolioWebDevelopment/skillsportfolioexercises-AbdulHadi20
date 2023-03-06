@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS REFERENCE GUIDE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>HTML & CSS REFERENCE GUIDE</h1>
+    <hr class="horrizzzline">
+    <br>
+    <p class="hteaml">
+        HTML stands for HyperTextMarkupLanguage. It is used to build the skeletal structure
+        of the websites. Every HTML tag is written inside <> brackets. Closing tags include
+            a '/' with the name of the tag. Here is the reference guide for the basic tags:
+    </p>
+    <br>
+    <table class="firstone">
+        <tr>
+            <th>The Tag</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>
+                < html>
+            </td>
+            <td>
+                This is the root element of the document. It converts the text documents
+                into webpages. It also indicates the begining and the end of the document.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < head>
+            </td>
+            <td>
+                This tag includes the meta information about the webpage. It tells the
+                search engines what the website is all about. This helps with the SEOs.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < title>
+            </td>
+            <td>
+                The title tag displays its contents on the title bar of a web browser. It
+                is essential to give accurate titles to websites/webpages for better results
+                in SEOs and SERP.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < body>
+            </td>
+            <td>
+                The body tag has all the content of the webpage/website inside it. It includes
+                all the other tags inside it.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < h1> - < h6>
+            </td>
+            <td>
+                The heading tags h1 to h6 are used for the headings and sub-headings in a
+                webpage. The h1 is the largest of them all. Then onwards each heading gets
+                smaller and smaller in size. h6 is the smallest.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < p>
+            </td>
+            <td>
+                The p tag is used to write paragraphs in a webpage. The paragraph's
+                alignments can be done using CSS properties.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < img>
+            </td>
+            <td>
+                This tag is used to add images in a webpage. Images enhance the website
+                quality and gives a better insight about the content. We also add the image
+                address in quotes to locate the image and display it.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < a>
+            </td>
+            <td>
+                This is known as anchor tag. This is used for navigation or linking websites
+                or a specific location on the current page.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < br>
+            </td>
+            <td>
+                This is a line break element. It is used to force content into a new line.
+                This tag is very essential as HTML does not know about whitespaces.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < hr>
+            </td>
+            <td>
+                This tag is used to create horizontal lines in our webpages. Its length and
+                thickness can be modified using CSS.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < table>
+            </td>
+            <td>
+                This tag is used to create tables. It is used at the begining and the
+                end of the table.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                < th>, < tr>, < td>
+            </td>
+            <td>
+                th stands for table head. It is used to write headings of the table.
+                tr stands for table rows. It is used to add content to table rows.
+                td stands for table data. It is used to add content to table coloumns.
+            </td>
+        </tr>
+    </table>
+
+    <h3>Code Example containing all the discussed html tags:</h3>
+
+    <pre>
+        <code>
+            < !DOCTYPE html>
+            < html>
+
+            < head>  
+              < title>Images & Links< /title>
+            < /head>
+
+            < body>  
+              < h1>Working with Image & Links< /h1>
+              < p>
+                  Images: < br>
+                  < img src="download (2).png" alt="a beautiful image">
+                  < br>
+                  Links: < br>
+                  < a href="https://twitter.com/home">Click to go to twitter< /a> (Opens in current tab)
+                  < br>
+                  < a href="https://twitter.com/home" target="_blank">Click to go to twitter< /a> (Opens in new tab)
+                  < br>
+              < /p>
+              < hr>
+              < table>
+                  < tr>  
+                    < th>Name< /th>
+                    < th>Age< /th>
+                    < th>Course< /th>
+                  < /tr>
+
+                 < tr>
+                    < td>AbdulHadi< /td>
+                    < td>19< /td>
+                    < td>Creative Computing< /td>
+                 < /tr>
+
+                 < tr>
+                    < td>Obaid< /td>
+                    < td>18< /td>
+                    < td>Creative Computing< /td>
+                 < /tr>
+
+                 < tr>
+                    < td>Ahmed< /td>
+                    < td>19< /td>
+                    < td>Business Management< /td>
+                 < /tr>
+                 < /table>
+            < /body>
+
+           < /html>
+        </code>
+    </pre>
+
+    <hr class="horrizzzline">
+    <br><br><br>
+
+    <p class="hteaml">
+        CSS stands for Cascading StyleSheet. It is used to modify/design the webpage.
+        It is responsible for the visual representation of the webpages/websites.
+    </p>
+    <br>
+
+    <table class="firstone">
+        <tr>
+            <th>CSS Properties</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>font-</td>
+            <td>
+                A short-form for all the font related properties. One of the most used
+                properties in CSS. It can edit size, color, style, etc. of the text.
+            </td>
+        </tr>
+
+        <tr>
+            <td>background-</td>
+            <td>
+                A short-form for all the background related actions. It can perform actions
+                for background color, image, etc.
+            </td>
+        </tr>
+
+        <tr>
+            <td>padding-</td>
+            <td>
+                A shorthand for the padding properties. Padding refers to the area around
+                the certain element.
+            </td>
+        </tr>
+
+        <tr>
+            <td>border-</td>
+            <td>
+                A shorthand for border related modifications. It can modify the style, color,
+                radius etc. of the borders.
+            </td>
+        </tr>
+
+        <tr>
+            <td>align-content</td>
+            <td>
+                A property to align the items in a container when all the space is not
+                being used.
+            </td>
+        </tr>
+
+        <tr>
+            <td>float</td>
+            <td>
+                It specifies the position of elements wether the content will float
+                to the left, right, center, etc.
+            </td>
+        </tr>
+
+        <tr>
+            <td>overflow</td>
+            <td>
+                The overflow property is used when it is required to specify the layout
+                of the content in a container if the content is too big.
+            </td>
+        </tr>
+
+        <tr>
+            <td>text-decoration</td>
+            <td>
+                It is responsible for the modification of the text. It can make the
+                text underlined, dotted, etc.
+            </td>
+        </tr>
+
+
+    </table>
+
+
+
+
+</body>
+
+</html>
