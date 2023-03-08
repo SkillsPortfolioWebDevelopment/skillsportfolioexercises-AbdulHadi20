@@ -1,0 +1,53 @@
+/*setting the overall font and body background color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FD4556;
+}
+
+/*the main heading colors, size, alignment*/
+h1 {
+    color: #FFFBF5;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+/*to add a background color for menu bar and its overflow*/
+.menu {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/*styling the links inside the menu bar*/
+.menu a {
+    float: left;
+    color: #BD3944;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*changing the color of the links on hovering*/
+.menu a:hover {
+    background-color: #FD4556;
+    color: #000000;
+}
+
+/*adding the color to the active/current link*/
+.menu a.active {
+    background-color: #53212B;
+    color: white;
+}
+
+.menu a.button {
+    background: solid;
+    background-color: #FFFBF5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: bold;
+}
