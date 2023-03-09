@@ -1,0 +1,28 @@
+/*adding a background color to the menu bar*/
+
+.menu {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+/*styling the links inside the menu bar*/
+.menu a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*change the color of the links on hover*/
+.menu a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/*adding the color to the active/current link*/
+.menu a.active {
+    background-color: darkcyan;
+    color: white;
+}
