@@ -1,43 +1,64 @@
+/* styling the body of the page*/
 body {
     background-color: #101823;
     font-family: sans-serif;
 }
 
+/* styling the navigation bar*/
 .nav {
     background-color: #00FCCE;
     overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+/* styling the links in the nagigation menu*/
 .nav a {
     float: left;
     color: #101823;
-    text-align: center;
+    text-align: justify;
     padding: 15px 17px;
     text-decoration: none;
     font-size: 17px;
 }
 
-.menu a:hover {
+/*the links behavior when mouse is hovered over it*/
+.nav a:hover {
     background-color: #FF4654;
 }
 
-.nav h1 {
-    color: #101823;
-    font-weight: bold;
+/* main heading */
+h2 {
+    color: #FF4654;
+    font-weight: bolder;
+    font-size: 80px;
     padding: 5px 7px;
-    text-align: justify;
+    text-align: center;
 }
 
+/*styling the button*/
 .button {
-    float: right;
+    float: left;
     background: solid;
-    background-color: #101823;
-    color: #BFC6CC;
+    background-color: #FF4654;
     box-sizing: border-box;
-    border-radius: 5px;
-    border: 0px solid;
-    font-weight: 400;
+    border-radius: 8px;
     margin: auto;
     text-align: center;
-    padding: 15px 30px;
+    padding: 8px 16px;
+}
+
+/*styling the subheadings*/
+.subheads {
+    text-align: center;
+    color: #BFC6CC;
+}
+
+/*styling the paragraphs*/
+.paras {
+    text-align: justify;
+    color: #00FCCE;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 20px;
 }
