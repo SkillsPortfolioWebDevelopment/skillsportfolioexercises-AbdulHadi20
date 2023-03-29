@@ -7,3 +7,15 @@ img {
     width: 1000px;
     height: 550px;
 }
+
+.trees {
+    filter: drop-shadow();
+}
+
+.landscape {
+    filter: grayscale();
+}
+
+.fog {
+    filter: saturate();
+}
