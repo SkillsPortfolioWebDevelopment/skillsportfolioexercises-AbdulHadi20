@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adding Forms</title>
+</head>
+
+<body>
+    <h1>Working with Forms</h1>
+    <form action="">
+        <label>First Name: </label><br>
+        <input type="text" placeholder="Enter your First Name"><br>
+        <label>Last Name: </label><br>
+        <input type="text" placeholder="Enter your Last Name">
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr> <br>
+    <form>
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="email" name="user_email" />
+            </li>
+
+            <li>
+                <label for="msg">Message:</label>
+                <textarea name="user_message" id="msg" placeholder="Your Message"></textarea>
+            </li>
+
+            <li class="button">
+                <button type="submit">Send your Message</button>
+            </li>
+        </ul>
+    </form>
+
+</body>
+
+</html>
