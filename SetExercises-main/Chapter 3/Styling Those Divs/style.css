@@ -1,0 +1,36 @@
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 25px;
+    border: 7px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    margin: 100px auto;
+    width: max-content;
+}
+
+div#A {
+    border-color: yellow;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+div#B {
+    border-color: lightseagreen;
+    box-shadow: 5px 5px 5px black inset;
+}
+
+div#C {
+    border-color: red;
+
+}
+
+div#D {
+    border-color: firebrick;
+}
