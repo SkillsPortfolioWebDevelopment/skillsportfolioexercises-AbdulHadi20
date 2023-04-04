@@ -28,9 +28,12 @@ div#B {
 
 div#C {
     border-color: red;
+    text-shadow: 7px 5px darkslategrey;
 
 }
 
 div#D {
-    border-color: firebrick;
+    border-color: green;
+    text-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 3px 7px;
 }
