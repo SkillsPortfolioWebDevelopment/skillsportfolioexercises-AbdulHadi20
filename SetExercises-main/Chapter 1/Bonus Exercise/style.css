@@ -1,20 +1,24 @@
+/* for the body tag */
 body {
     background-color: #5b8291;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* for the horizontal line tag */
 .horrizzzline {
     background-color: #2e424d;
     width: auto;
     padding: 7px;
 }
 
+/* for the h1 tag */
 h1 {
     text-align: center;
     font-weight: bolder;
     color: #eaebed
 }
 
+/* for the the h3 and paragraph class 'hteaml' tags */
 .hteaml,
 h3 {
     color: #eaebed;
@@ -24,6 +28,7 @@ h3 {
     border-bottom: 100px;
 }
 
+/* for the table class tag */
 .firstone {
     table-layout: auto;
     padding-bottom: 20px;
@@ -32,6 +37,7 @@ h3 {
     border-color: #2e424d;
 }
 
+/* for the table head tags */
 th {
     background-color: #2e424d;
     color: #eaebed;
@@ -42,16 +48,19 @@ th {
     padding: 15px 15px 25px 20px;
 }
 
+/* for the table rows & data tags */
 tr,
 td {
     table-layout: auto;
     padding: 15px 15px 30px 20px;
 }
 
+/* for the even rows of the table */
 tr:nth-child(even) {
     background-color: #eaebed;
 }
 
+/* for the odd rows of the table */
 tr:nth-child(odd) {
     background-color: #98dad9;
 }
