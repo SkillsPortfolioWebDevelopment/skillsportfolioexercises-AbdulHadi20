@@ -3,14 +3,23 @@ header {
     font-family: Tahoma;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
     color: #ffffff;
-    text-align: center;
     text-decoration: underline;
     font-size: 700;
     padding: 15px;
+}
+
+a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 2px;
+    padding-bottom: 15px;
+    font-size: 400;
+    text-decoration: none;
 }
 
 
