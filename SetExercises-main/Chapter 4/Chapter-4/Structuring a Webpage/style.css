@@ -1,10 +1,24 @@
 header {
     background-color: #17072b;
+    font-family: Tahoma;
+    padding: 0;
     margin: 0;
-    padding: 5px;
-    font-size: x-large;
+}
+
+h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
+    font-size: 700;
+    padding: 15px;
+}
+
+
+
+footer {
+    margin-top: 145px;
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
 }
