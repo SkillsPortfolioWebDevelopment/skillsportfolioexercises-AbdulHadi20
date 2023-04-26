@@ -16,7 +16,7 @@ h1 {
 a {
     color: #ffffff;
     display: inline-block;
-    padding: 2px;
+    padding: 20px;
     padding-bottom: 15px;
     font-size: 400;
     text-decoration: none;
@@ -25,9 +25,54 @@ a {
 
 
 footer {
-    margin-top: 145px;
+    margin-top: 300px;
     background-color: #8c15e9;
     color: #ffffff;
     text-align: center;
     padding: 1px 0px 1px 0px;
+}
+
+h2 {
+    font-family: Tahoma;
+    font-size: 700;
+    text-decoration: underline;
+    color: #000000;
+    padding: 10px;
+}
+
+article {
+    font-size: 400;
+    color: #000000;
+    padding: 10px;
+    font-family: arial;
+}
+
+img {
+    padding: 10px;
+}
+
+aside {
+    width: 30%;
+    margin-left: 15px;
+    padding-left: 15px;
+    float: right;
+    background-color: #172d67;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 37px;
+}
+
+.lineup {
+    font-family: Tahoma;
+    font-size: 700;
+    text-decoration: underline;
+    color: #ffffff;
+    padding: 10px;
+}
+
+ul {
+    list-style: "- ";
+    font-family: Arial;
+    font-size: 400;
+    padding: 10px;
 }
