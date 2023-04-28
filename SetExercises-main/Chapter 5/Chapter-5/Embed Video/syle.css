@@ -1,4 +1,10 @@
+h1 {
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bolder;
+}
+
 video {
-    margin: center;
-    padding: center;
+    height: 500px;
+    width: 500px;
 }
