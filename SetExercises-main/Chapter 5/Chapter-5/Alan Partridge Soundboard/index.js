@@ -1,25 +1,11 @@
-const sounds = ["ah-ha", "dan", "back", "bang", "jurrasic", "smell", "goal", "kiss", "hello"];
+window.addEventListener("load", () => {
+    const sounds = document.querySelectorAll(".sound");
+    const layout = document.querySelectorAll(".layout div");
 
-sounds.forEach(sound => {
-    const btn = document.createElement("button");
-    btn.classList.add("btn");
-
-    btn.innerText = sound;
-
-    btn.addEventListener("click", () => {
-        stopSongs()
-
-        document.getElementById(sound).play();
+    layout.forEach((box, index) => {
+        box.addEventListener("click", function () {
+            sounds[index].currentTime = 0;
+            sounds[index].play();
+        });
     });
-
-    document.getElementById("buttons").appendChild(btn);
 });
-
-function stopSongs() {
-    sounds.forEach((sound) => {
-        const song = document.getElementById(sound);
-
-        song.pause();
-        song.currentTime = 0;
-    });
-} 
