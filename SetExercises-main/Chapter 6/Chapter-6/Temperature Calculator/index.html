@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--html tags-->
+<html lang="en">
+
+<head> <!--head tag for the meta, linking with css files-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title> <!--title to display on title bar-->
+    <link rel="stylesheet" href="style.css"> <!--linking with css file-->
+</head>
+
+<body> <!--the body tag-->
+
+    <main> <!--main tag for the main content-->
+        <header> <!-- header tag for the heading-->
+            <h1>Temperature Converter</h1> <!--heading h1 tag, biggest heading of all 6-->
+        </header>
+        <div class="values"> <!--div tag to style and display all the content in a box-->
+            <p>
+                Enter the temperature in Fahrenheit:
+                <input type="number" id="farenheit">
+                <!--user enter thier values inside the input box, only numbers allowed-->
+            </p>
+            <button id="focus" onclick="conversion()">Convert</button>
+            <!--button tag, calls the function in javascript when clicked-->
+            <br>
+            <p> <!-- the paragraph tag used to display the results-->
+                The temperature in Celcius is:
+                <span id="celcius"></span> <!--the span tag-->
+            </p>
+
+            <p>
+                The temperature in Kelvin is:
+                <span id="kelvin"></span>
+            </p>
+        </div>
+    </main>
+    <script src="index.js"></script> <!--linking with external javascript file-->
+</body>
+
+</html>

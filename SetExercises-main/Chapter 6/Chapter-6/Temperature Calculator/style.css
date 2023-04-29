@@ -1,0 +1,52 @@
+/* styling the font for the content inside the main tag*/
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* styling the header and the heading*/
+header {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    font-size: large;
+    padding: 4px;
+    margin: 15px;
+}
+
+/* styling the div tag, by calling the id*/
+.values {
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #FF0000;
+    background-color: #2D3142;
+    color: #BFC0C0;
+    font-size: 30px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/*styling the input box*/
+input {
+    font-size: 30px;
+    padding: 5px;
+    margin: 3px;
+}
+
+/* styling the button*/
+button {
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #ff0000;
+    color: #BFC0C0;
+    padding: 25px;
+    margin: 15px;
+    font-size: 30px;
+    font-style: bolder;
+}
+
+/*styling the hover effect when mouse places on the button*/
+button:hover {
+    background-color: #BFC0C0;
+    color: #FF0000;
+}
