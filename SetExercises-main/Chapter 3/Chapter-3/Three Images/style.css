@@ -1,13 +1,16 @@
+/*styling the headings*/
 h3 {
     text-align: center;
     font-weight: bold;
 }
 
+/*styling the images*/
 img {
     width: 1000px;
     height: 550px;
 }
 
+/*styling the images using filters*/
 .trees {
     filter: drop-shadow();
 }

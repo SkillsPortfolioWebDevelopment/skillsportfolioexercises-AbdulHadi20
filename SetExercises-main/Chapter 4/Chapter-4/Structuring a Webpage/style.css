@@ -1,3 +1,4 @@
+/*styling the header*/
 header {
     background-color: #17072b;
     font-family: Tahoma;
@@ -6,6 +7,7 @@ header {
     text-align: center;
 }
 
+/*styling the h1 tag*/
 h1 {
     color: #ffffff;
     text-decoration: underline;
@@ -13,6 +15,7 @@ h1 {
     padding: 15px;
 }
 
+/*styling the links*/
 a {
     color: #ffffff;
     display: inline-block;
@@ -22,8 +25,7 @@ a {
     text-decoration: none;
 }
 
-
-
+/*styling the footer*/
 footer {
     margin-top: 300px;
     background-color: #8c15e9;
@@ -32,6 +34,7 @@ footer {
     padding: 1px 0px 1px 0px;
 }
 
+/*styling the h2 tag*/
 h2 {
     font-family: Tahoma;
     font-size: 700;
@@ -40,6 +43,7 @@ h2 {
     padding: 10px;
 }
 
+/*styling the article tag*/
 article {
     font-size: 400;
     color: #000000;
@@ -47,10 +51,12 @@ article {
     font-family: arial;
 }
 
+/*adjusting the images*/
 img {
     padding: 10px;
 }
 
+/*making sure the content is placed on the left side*/
 aside {
     width: 30%;
     margin-left: 15px;
@@ -62,6 +68,7 @@ aside {
     padding-bottom: 37px;
 }
 
+/*class to differentiate between 2 h2 tags*/
 .lineup {
     font-family: Tahoma;
     font-size: 700;
@@ -70,6 +77,7 @@ aside {
     padding: 10px;
 }
 
+/*styling the unordered list tag*/
 ul {
     list-style: "- ";
     font-family: Arial;

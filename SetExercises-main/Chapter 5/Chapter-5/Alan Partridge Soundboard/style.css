@@ -1,8 +1,10 @@
+/*adding the body backroung image*/
 body {
     background-image: url("background-image.png");
 
 }
 
+/*styling the header*/
 header {
     color: #1C1621;
     text-align: center;
@@ -11,10 +13,12 @@ header {
     margin: 7px;
 }
 
+/*creating boxes*/
 * {
     box-sizing: border-box;
 }
 
+/*styling the layout of the boxes in a grid*/
 .layout {
     display: grid;
     grid-template-columns: 620px 620px 620px;
@@ -24,6 +28,7 @@ header {
     padding-right: 10px;
 }
 
+/*styling the button*/
 .btn {
     background-color: #7C552E;
     border: none;
@@ -38,11 +43,13 @@ header {
 
 }
 
+/*button effects*/
 .btn:hover {
     background-color: #ffffff;
     color: #7C552E;
 }
 
+/*button effects when active*/
 .btn:active {
     background-color: #1C1621;
     color: #ffffff;

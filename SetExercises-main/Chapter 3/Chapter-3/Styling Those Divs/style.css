@@ -1,3 +1,4 @@
+/*styling all the div tags*/
 div {
     display: inline-block;
     font-family: sans-serif;
@@ -10,27 +11,33 @@ div {
     height: 200px;
 }
 
+/*styling the body tag, margin and width*/
 body {
     margin: 100px auto;
     width: max-content;
 }
 
+/*styling the fisrt div*/
 div#A {
     border-color: yellow;
     box-shadow: 5px 5px 5px black;
 
 }
 
+/*styling the second div*/
 div#B {
     border-color: lightseagreen;
     box-shadow: 5px 5px 5px black inset;
 }
 
+/*styling the third div*/
 div#C {
     border-color: red;
     text-shadow: 7px 5px darkslategrey;
 
 }
+
+/*styling the fourth div*/
 
 div#D {
     border-color: green;
