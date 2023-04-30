@@ -48,6 +48,7 @@ aside {
     padding-top: 230px;
 }
 
+
 /*styling the button*/
 .btn {
     background-color: #7C552E;
@@ -73,4 +74,22 @@ aside {
 .btn:active {
     background-color: #1C1621;
     color: #ffffff;
+}
+
+/*styling the icons*/
+.next {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: top;
+    color: #ffffff;
+    background-color: #1C1621;
+    padding: 7px;
+    text-align: center;
+
 }
