@@ -4,12 +4,17 @@
     overflow-x: hidden;
 }
 
+body {
+    background-image: url("bgimagegame.png");
+    image-resolution: 1920 x 1080;
+}
+
 .place {
-    width: 500px;
+    width: 800px;
     height: 500px;
     border: 1px solid black;
     margin: auto;
-    background-color: black;
+    background-color: darkgoldenrod;
 }
 
 #player {
@@ -17,7 +22,7 @@
     height: 50px;
     background-color: darkcyan;
     position: relative;
-    top: 150px;
+    top: 445px;
 }
 
 #box {
@@ -25,8 +30,8 @@
     width: 20px;
     height: 20px;
     position: relative;
-    top: 130px;
-    left: 480px;
+    top: 423px;
+    left: 777px;
     animation: red 2s infinite linear;
 }
 
