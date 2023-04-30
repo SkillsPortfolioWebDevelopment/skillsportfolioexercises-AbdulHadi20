@@ -3,6 +3,7 @@
 
 <head> <!--head tag, contains meta information and external file links-->
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/e5dccc8960.js" crossorigin="anonymous"></script> <!--importing icons-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Planner</title> <!--displayed on the title bar-->
@@ -11,44 +12,71 @@
 
 <body> <!--start of the body tag-->
 
-    <header>
+    <header> <!--header tag for the main heading and styling-->
         <h1>STUDY PLANNER</h1> <!--main heading-->
         <h3>Course: Creative Computing</h3> <!--for sub-heading-->
     </header>
 
-    <main class="leftside">
-        <section>
-            <h4>Module: Web Programming</h4>
-            <hr>
-            <br><br>
-            <h4>Menu:</h4>
+    <main class="leftside"> <!--the main content on the left side-->
+        <section> <!--section tag-->
+            <h4>Module: Web Programming</h4> <!--subheading-->
+            <hr> <!--creates a horizontal line-->
+            <br><br> <!--line breaks-->
+            <h4>Menu:</h4> <!--subheading-->
 
-            <br><br><br><br>
-            <ul>
-                <li> Attendence</li>
+            <br><br><br><br> <!--line breaks-->
+            <ul> <!--unordered list-->
+                <li> Attendence</li> <!--items-->
                 <br>
-                <li> Grades</li>
+                <li> Grades</li> <!--items-->
                 <br>
-                <li> Teaching Material</li>
+                <li> Teaching Material</li> <!--items-->
                 <br>
-                <li> TimeTable</li>
+                <li> TimeTable</li> <!--items-->
                 <br>
-                <li> Announcements</li>
+                <li> Announcements</li> <!--items-->
             </ul>
 
-            <button>WireFrame</button>
+            <button>WireFrame</button> <!--a button that links to the wireframe -->
 
         </section>
     </main>
 
-    <main>
-        <section>
-            <h2>CALENDAR:</h2>
+    <aside> <!--aside tag for the content placed on the right side-->
+        <div class="rex"> <!--div tag to align the boxes accurately-->
+            <h3 class="divhead">Notifications:</h3> <!--subheading for the side content-->
+            <div class="rexbox">Assignment due tomorrow (23/04/23)</div> <!--div tags for the boxes-->
+            <div class="rexbox">Complete your simple game....</div> <!--div tags for the boxes-->
+            <div class="rexbox">Class at 9:30 pm</div> <!--div tags for the boxes-->
+            <div class="rexbox">Pop Quiz soon (27/04/23)</div> <!--div tags for the boxes-->
+            <div class="rexbox">Vacations starting (15/07/23)</div> <!--div tags for the boxes-->
 
+        </div>
+    </aside>
 
-
+    <main> <!--main tag for the main content in the middle-->
+        <section> <!--section tag-->
+            <div class="boxes"> <!--div tag to align the boxes-->
+                <h3 class="divhead">Explore: </h3> <!--subheading for the main content-->
+                <div class="btn"><i class="fa-solid fa-calendar"></i> Calendar</div>
+                <!--creating a boxex with icons using the i tag-->
+                <div class="btn"><i class="fa-solid fa-calendar-days"></i> Upcoming Events</div>
+                <!--creating a boxex with icons using the i tag-->
+                <div class="btn"><i class="fa-solid fa-book-open"></i> Assignments</div>
+                <!--creating a boxex with icons using the i tag-->
+                <div class="btn"><i class="fa-sharp fa-solid fa-circle-exclamation"></i> DeadLines</div>
+                <!--creating a boxex with icons using the i tag-->
+            </div>
         </section>
     </main>
+
+    <footer> <!--footer tag-->
+        <p>
+            © 2022 University of Goodness <br>
+            Privacy Policy <br>
+            Terms & Conditions
+        </p>
+    </footer>
 
 </body>
 

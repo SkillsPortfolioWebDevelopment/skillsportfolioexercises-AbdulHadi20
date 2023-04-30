@@ -1,44 +1,134 @@
-/**/
-header {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: cornflowerblue;
-    padding: 5px;
-    margin: 5px;
+/*selecting a background color*/
+body {
+    background-color: #0A0908;
 }
 
+/*styling the footer*/
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #22333B;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/*styling the main heading*/
 h1 {
     text-align: center;
     font-size: 40px;
-    color: black;
+    color: #F2F4F3;
 }
 
+/*styling the subheadings h3*/
 h3 {
-    color: black;
+    color: #F2F4F3;
     margin: 7px;
 }
 
+/*styling the menu box on the left side*/
 .leftside {
     box-sizing: border-box;
     border-radius: 10px;
     float: left;
     width: 450px;
-    height: 800px;
-    background-color: black;
-    color: white;
+    height: 650px;
+    background-color: #A9927D;
     padding: 5px;
     margin: 5px;
 }
 
+/*styling the button*/
+button {
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    padding: 7px;
+    margin: 4px;
+    background-color: #22333B;
+    color: #F2F4F3;
+    float: right;
+}
+
+/*styling the h4 subheadings*/
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
     text-decoration: underline;
+    color: #F2F4F3;
 }
 
+/*styling the list menu on the leftside*/
 ul {
     list-style: " >>>";
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
+    color: #F2F4F3;
 
+}
+
+/*aligning the boxes in the main content area*/
+.boxes {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+    padding: 80px;
+    margin: 20px;
+}
+
+/*styling the boxes of the main area*/
+.btn {
+    background-color: #5E503F;
+    color: bisque;
+    text-align: center;
+    justify-content: center;
+    border-radius: 18px;
+    padding: 15px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 40px;
+}
+
+/*styling the headings with class divhead*/
+.divhead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #A9927D;
+}
+
+/*aligning the boxes in the right*/
+.rex {
+    float: right;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    gap: 40px;
+    padding: 40px;
+    margin: 10px;
+}
+
+/*styling the boxes on the right side*/
+.rexbox {
+    background-color: #5E503F;
+    color: bisque;
+    text-align: center;
+    justify-content: center;
+    border-radius: 18px;
+    padding: 15px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 40px;
+}
+
+/*styling the footer*/
+footer {
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #22333B;
+    color: #F2F4F3;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
 }
