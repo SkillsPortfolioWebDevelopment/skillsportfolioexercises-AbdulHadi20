@@ -13,6 +13,14 @@
     <header> <!--header tag for headings-->
         <h1>Audio Sampler</h1> <!--h1 tag main heading-->
     </header>
+    <aside>
+        <div class="textareabox"> <!--div tag to style and place the text area box-->
+            <textarea id="text-to-speech" cols="30" rows="10" placeholder="Type here..."></textarea><button
+                type="button" oneclick="textToAudio">SPEAK</button> <!--create a button-->
+            <!--creating a text area-->
+        </div>
+
+    </aside>
 
     <div class="layout"> <!--div class, to manage the complete layout-->
         <div class="btn"> <!--div class btn to style the button-->
@@ -90,7 +98,83 @@
 
     </div>
 
-    <script src="index.js"></script> <!--linking the external javascript file-->
+    <div class="layout2"> <!--div class, to manage the complete layout-->
+        <div class="btn"> <!--div class btn to style the button-->
+            <p> <!--paragraph tag-->
+                19. <br><br> 10 Past 5 <br><br> 1.7
+            </p>
+
+            <audio src="Sounds/10-past-5.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                20. <br><br> Aboot <br><br> 3.5
+            </p>
+
+            <audio src="Sounds/aboot.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                21. <br><br> Afraid So <br><br> 1.32
+            </p>
+
+            <audio src="Sounds/afraid-so.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                22. <br><br> Ah Come On <br><br> 0.24
+            </p>
+
+            <audio src="Sounds/ah-come-on.mp3" class="sound"></audio>
+            <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                23. <br><br> Aye <br><br> 0.22
+            </p>
+
+            <audio src="Sounds/aye.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                24. <br><br> Best Frinds <br><br> 2.04
+            </p>
+
+            <audio src="Sounds/best-friends.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                25. <br><br> Cashback <br><br> 2.87
+            </p>
+
+            <audio src="Sounds/cashback.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                26. <br><br> Conman <br><br> 0.18
+            </p>
+
+            <audio src="Sounds/conman.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+        <div class="btn"> <!--div class, to manage the complete layout-->
+            <p> <!--paragraph tag-->
+                27. <br><br> How old are you? <br><br> 2.25
+            </p>
+
+            <audio src="Sounds/how-old-are-you.mp3" class="sound"></audio> <!--audio tag to add audios for the button-->
+        </div>
+
+    </div>
+
+    <script src="main.js"></script> <!--linking the external javascript file-->
 
 
 </body>
