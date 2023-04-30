@@ -18,11 +18,12 @@ body {
 }
 
 #player {
+    margin-left: 20px;
     width: 20px;
     height: 50px;
     background-color: darkcyan;
     position: relative;
-    top: 445px;
+    top: 88%;
 }
 
 #box {
@@ -30,10 +31,11 @@ body {
     width: 20px;
     height: 20px;
     position: relative;
-    top: 423px;
+    top: 84%;
     left: 777px;
-    animation: red 2s infinite linear;
+    animation: box 2s infinite linear;
 }
+
 
 @keyframes box {
     0% {
