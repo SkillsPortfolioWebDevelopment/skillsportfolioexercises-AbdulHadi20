@@ -1,0 +1,40 @@
+body {
+    background-color: purple;
+    color: black;
+    font-size: 100px;
+}
+
+/*on screens that are 992px wide or less, the background color is medium-purple*/
+@media screen and (max-width: 992px) {
+    body {
+        background-color: mediumpurple;
+        color: white;
+        font-size: 50px;
+    }
+
+    .row {
+        display: table;
+        float: left;
+    }
+}
+
+/*on screens that are 600px wide or less, the background color is pink*/
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: pink;
+        color: white;
+        font-size: 25px;
+    }
+
+    .row {
+        display: table;
+        float: left;
+    }
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
